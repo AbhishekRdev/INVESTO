@@ -8,7 +8,7 @@ import time
 from streamlit_option_menu import option_menu
 import streamlit as st
 page_img = Image.open("img_src/page_icon.png")
-PAGE_config = {"page_title": 'INVESTIRE',
+PAGE_config = {"page_title": 'INVESTO',
                "page_icon": page_img, "layout": "centered"}
 st.set_page_config(**PAGE_config)
 hide_st_style = """
