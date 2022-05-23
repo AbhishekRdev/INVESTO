@@ -12,7 +12,9 @@ STEP 2) OPEN ANY IDE FOR VIEW THE Dependencies
 
 STEP 3) OPEN CMD IN THE INSIDE THE DIRECTORY
 
-STEP 4) RUN THE cmd : streamlit run [EDA_app.py](EDA_app.py)
+STEP 4) INSTALL PACKAGES MENTIONED IN REQUIREMENTS.TXT IN VIRTUAL ENVIRONMENT 
+
+STEP 5) RUN THE cmd : streamlit run [EDA_app.py](EDA_app.py)
 
 # OR
 Click [here]() to view the streamed version 
