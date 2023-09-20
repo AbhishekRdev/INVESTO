@@ -22,7 +22,7 @@ def app():
     period_years  = st.sidebar.slider("Years of prediction:",1,10)
     period = period_years*365
 
-    @st.cache()
+    @st.cache_data()
     def load_stock_data(ticker):
         
         data = yf.download(ticker,START_date,TODAY)
