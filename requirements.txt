@@ -69,3 +69,4 @@ pyarrow==7.0.0
 streamlit==1.7.0
 yfinance==0.1.70
 prophet==1.1.4
+plotly==5.17.0
