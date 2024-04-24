@@ -22,7 +22,7 @@ def app():
 
     period = period_years*365
 
-    @st.cache_data()
+    @st.experimental_memo
     def load_stock_data(ticker):
         data = yf.download(ticker, START_date, TODAY)
         data.reset_index(inplace=True)
